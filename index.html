@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Vishnu Moaan — AI Engineer, Python Developer, Innovator. Portfolio showcasing projects, skills, and contact links." />
+  <title>Vishnu Moaan | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" aria-label="Primary">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Go to top">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">Vishnu Moaan</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-lines" aria-hidden="true"></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Site">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        <a class="nav-cta" href="#contact">Let’s Talk</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="home" class="section hero" aria-label="Hero">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="blob blob-a"></div>
+        <div class="blob blob-b"></div>
+        <div class="grid-overlay"></div>
+      </div>
+
+      <div class="container hero-inner">
+        <div class="hero-avatar" aria-hidden="true">
+          <div class="avatar-ring"></div>
+          <div class="avatar-core">
+            <!-- AI avatar placeholder (inline SVG) -->
+            <svg viewBox="0 0 64 64" role="img" aria-label="AI avatar placeholder" class="avatar-icon">
+              <defs>
+                <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#7c3aed" />
+                  <stop offset="1" stop-color="#22d3ee" />
+                </linearGradient>
+              </defs>
+              <path fill="url(#g)" d="M26 8a6 6 0 0 1 12 0v4h6a6 6 0 0 1 6 6v22a10 10 0 0 1-10 10H24A10 10 0 0 1 14 40V18a6 6 0 0 1 6-6h6V8Z" opacity="0.95"/>
+              <path fill="#0b1220" d="M22 24a5 5 0 1 0 0 10h20a5 5 0 1 0 0-10H22Z" opacity="0.85"/>
+              <circle cx="26" cy="29" r="2.4" fill="#22d3ee" />
+              <circle cx="38" cy="29" r="2.4" fill="#22d3ee" />
+              <path d="M24 42c3 2 13 2 16 0" fill="none" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+              <path d="M10 28h6M48 28h6" stroke="#7c3aed" stroke-width="3" stroke-linecap="round" opacity="0.75"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="hero-content">
+          <h1 class="hero-title">Welcome to </h1> 
+          <h1 class="hero-title"> Vishnu Moaan’s Portfolio</h1>
+          <p class="hero-tagline">AI & AutomationEngineer | Sr. Software Engineer |  Innovator</p>
+
+          <p class="hero-blurb">
+            I build intelligent systems, craft clean Python backends, and turn ideas into reliable products.
+            Explore my skills, featured projects, and ways to connect.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-ghost" href="#contact">Contact Me</a>
+          </div>
+
+          <!--<div class="hero-stats" aria-label="Highlights">
+            <div class="stat">
+              <span class="stat-k">AI</span>
+              <span class="stat-v">ML • NLP • Vision</span>
+            </div>
+            <div class="stat">
+              <span class="stat-k">Python</span>
+              <span class="stat-v">APIs • Data • Automation</span>
+            </div>
+            <div class="stat">
+              <span class="stat-k">Delivery</span>
+              <span class="stat-v">Fast iterations • Clean UX</span>
+            </div>
+          </div>
+        </div>-->
+      </div>
+
+      <a class="scroll-hint" href="#about" aria-label="Scroll to About">
+        <span class="scroll-dot" aria-hidden="true"></span>
+        <span class="scroll-text">Scroll</span>
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about reveal" aria-label="About">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">About Me</h2>
+        </div>
+
+        <div class="about-split">
+          <div class="about-media" aria-label="Portrait">
+            <div class="portrait-frame">
+              <img
+                class="portrait"
+                id="aboutPortrait"
+                src="assets/Vishnu Moaan Kannan.jpg"
+                data-fallback="assets/Vishnu Moaan Kannan.jpg"
+                alt="Portrait of Vishnu Moaan"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <div class="about-card card">
+            <h3 class="card-title">Profile</h3>
+                <p class="muted">
+                  I’m Vishnu Moaan, Sr. Software Engineer, Automation Architect, and AI Engineer with nearly a decade of experience building reliable, scalable, and intelligent quality engineering solutions.
+                  I currently work as a Team Lead and Scrum Master, leading a 13-member team and driving end-to-end testing strategy across automation, CI/CD, and customer-focused validation. My work spans test framework design, automation scripting, API testing, and Agile delivery, with a strong focus on reducing manual effort and improving release confidence.
+                  Over the years, I’ve designed and implemented AI-assisted testing solutions, including customer acceptance validation, test case optimization, and intelligent scenario generation. I enjoy blending traditional automation with modern AI techniques to solve real testing and productivity problems.
+                  Beyond execution, I’m deeply interested in building tools and platforms—from Windows and web applications to AI-powered assistants—that help teams work smarter, ship faster, and think beyond repetitive testing.
+                </p>
+                <p class="muted">
+                  My interests include applied machine learning, automation, data engineering workflows, and AI-assisted products.
+                </p>
+              </div>
+        </div>
+
+        <div class="about-skills-row">
+          <div class="skills card">
+                <div class="skills-head">
+                  <h3 class="card-title">Skills</h3>
+                  <p class="muted">Hover to explore my core strengths.</p>
+                </div>
+                <div class="skills-grid" role="list">
+                  <div class="skill" role="listitem">
+                    <div class="skill-top">
+                      <span class="skill-name">Machine Learning</span>
+                      <span class="pill">Models</span>
+                    </div>
+                    <p class="skill-desc">Training, evaluation, feature engineering, deployment fundamentals.</p>
+                  </div>
+                  <div class="skill" role="listitem">
+                    <div class="skill-top">
+                      <span class="skill-name">Python</span>
+                      <span class="pill">Backend</span>
+                    </div>
+                    <p class="skill-desc">APIs, automation, data processing, scripting, clean architecture.</p>
+                  </div>
+                  <div class="skill" role="listitem">
+                    <div class="skill-top">
+                      <span class="skill-name">NLP</span>
+                      <span class="pill">LLMs</span>
+                    </div>
+                    <p class="skill-desc">Text pipelines, embeddings, prompts, retrieval foundations.</p>
+                  </div>
+                  <div class="skill" role="listitem">
+                    <div class="skill-top">
+                      <span class="skill-name">Computer Vision</span>
+                      <span class="pill">Vision</span>
+                    </div>
+                    <p class="skill-desc">Image processing basics, detection/classification workflows.</p>
+                  </div>
+                  <div class="skill" role="listitem">
+                    <div class="skill-top">
+                      <span class="skill-name">Data</span>
+                      <span class="pill">Pipelines</span>
+                    </div>
+                    <p class="skill-desc">ETL thinking, dataset hygiene, reproducible experiments.</p>
+                  </div>
+                  <div class="skill" role="listitem">
+                    <div class="skill-top">
+                      <span class="skill-name">Frontend</span>
+                      <span class="pill">UI</span>
+                    </div>
+                    <p class="skill-desc">Responsive layouts, accessibility, clean interaction design.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects reveal" aria-label="Projects">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project card" tabindex="0">
+            <div class="project-top">
+              <h3 class="card-title">Xpath Hunter</h3>
+              <span class="badge">Featured</span>
+            </div>
+            <p class="muted">A chrome extention that helps find XPath selectors quickly and accurately.</p>
+            <div class="tags" aria-label="Technologies">
+              <span class="tag">Typescript</span>
+              <span class="tag">JavaScript (ES6+)</span>
+              <span class="tag">Chrome Extension APIs</span>
+              <span class="tag">DOM & XPath APIs</span>
+              <span class="tag">HTML / CSS</span>
+            </div>
+          </article>
+
+          <article class="project card" tabindex="0">
+            <div class="project-top">
+              <h3 class="card-title">Jira Ginie</h3>
+              <span class="badge">AI & Automation</span>
+            </div>
+            <p class="muted">Customized Web appliction that can use the JIRA API & AI and can produce smart works in JIRA</p>
+            <div class="tags" aria-label="Technologies">
+              <span class="tag">Python</span>
+              <span class="tag">JQL</span>
+              <span class="tag">HTML / CSS</span>
+              <span class="tag">LLM </span>
+            </div>
+          </article>
+
+          <article class="project card" tabindex="0">
+            <div class="project-top">
+              <h3 class="card-title">Keyword Driven Framework</h3>
+              <span class="badge">Test Framework</span>
+            </div>
+            <p class="muted">Automation Test Framework, that helps the manual testers to easily perform sutomation with just keywords.</p>
+            <div class="tags" aria-label="Technologies">
+              <span class="tag">Python</span>
+              <span class="tag">Test Framework</span>
+              <span class="tag">yaml</span>
+              <span class="tag">Test NG</span>
+            </div>
+          </article>
+
+          <article class="project card" tabindex="0">
+            <div class="project-top">
+              <h3 class="card-title">AI powered Analyzer</h3>
+              <span class="badge">AI Feature</span>
+            </div>
+            <p class="muted">AI Powered framework that helps to understand and analyze acceptance criteria and draft the test plans and test cases</p>
+            <div class="tags" aria-label="Technologies">
+              <span class="tag">Python</span>
+              <span class="tag">Pandas</span>
+              <span class="tag">Github Copilot</span>
+              <span class="tag">LLM</span>
+            </div>
+          </article>
+
+          <article class="project card" tabindex="0">
+            <div class="project-top">
+              <h3 class="card-title">VS Code Extension for Copilot</h3>
+              <span class="badge">Extension</span>
+            </div>
+            <p class="muted">Vs code Extention that uses "Language Model API" in VS code to use github copilot without using api key.</p>
+            <div class="tags" aria-label="Technologies">
+              <span class="tag">Typescript</span>
+              <span class="tag">Language Model API</span>
+              <span class="tag">Git hub Copilot</span>
+              <span class="tag">VS- Code</span>
+            </div>
+          </article>
+
+          <article class="project card" tabindex="0">
+            <div class="project-top">
+              <h3 class="card-title">Defect Forecaster</h3>
+              <span class="badge">AI Feature</span>
+            </div>
+            <p class="muted">AI Powered web application, that helps to analyse the exsiting defects, test coverage and predict the future defects.</p>
+            <div class="tags" aria-label="Technologies">
+              <span class="tag">Python</span>
+              <span class="tag">DeepForest algorithm</span>
+              <span class="tag">Pandas</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact reveal" aria-label="Contact">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-subtitle">Let’s connect — email or socials below.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card card">
+            <h3 class="card-title">Reach me</h3>
+            <p class="muted">Prefer a quick message? Email is best.</p>
+
+            <div class="contact-links">
+              <a class="contact-link" href="mailto:vishnumoaank@gmail.com" aria-label="Email">
+                <span class="icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16v16H4z" opacity="0.25" />
+                    <path d="M4 7l8 6 8-6" />
+                  </svg>
+                </span>
+                <span>Email</span>
+              </a>
+
+              <a class="contact-link" href="https://www.linkedin.com/in/vishnu-moaan-kannan-83883b130/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                <span class="icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                    <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.11 1 2.48 1h.02C3.87 1 4.98 2.12 4.98 3.5ZM.5 23.5h4V7.98h-4V23.5ZM8.5 7.98h3.82v2.12h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.77 2.66 4.77 6.11v9.34h-4v-8.28c0-1.97-.04-4.5-2.74-4.5-2.74 0-3.16 2.14-3.16 4.36v8.42h-4V7.98Z"/>
+                  </svg>
+                </span>
+                <span>LinkedIn</span>
+              </a>
+
+              <!--<a class="contact-link" href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub">
+                <span class="icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                    <path d="M12 .5C5.73.5.75 5.66.75 12.1c0 5.18 3.44 9.58 8.2 11.13.6.12.82-.27.82-.59 0-.3-.02-1.28-.02-2.33-3.01.56-3.79-.76-4.03-1.46-.14-.37-.74-1.46-1.28-1.76-.44-.25-1.07-.86-.02-.88.98-.02 1.68.93 1.91 1.31 1.12 1.95 2.91 1.4 3.63 1.07.11-.83.44-1.4.8-1.72-2.67-.3-5.46-1.38-5.46-6.1 0-1.35.47-2.46 1.24-3.32-.13-.3-.54-1.55.12-3.22 0 0 1.01-.34 3.3 1.27.96-.27 1.98-.4 3-.4 1.02 0 2.04.13 3 .4 2.3-1.61 3.3-1.27 3.3-1.27.66 1.67.25 2.91.12 3.22.77.86 1.24 1.97 1.24 3.32 0 4.74-2.8 5.8-5.48 6.1.45.4.84 1.18.84 2.4 0 1.72-.02 3.11-.02 3.54 0 .32.22.71.82.59 4.76-1.55 8.2-5.95 8.2-11.13C23.25 5.66 18.27.5 12 .5Z"/>
+                  </svg>
+                </span>
+                <span>GitHub</span>
+              </a>-->
+            </div>
+          </div>
+
+          <div class="contact-card card">
+            <h3 class="card-title">Talk to AI</h3>
+            <p class="muted">A future assistant experience for Q&amp;A about my work.</p>
+            <button class="btn btn-primary" type="button" data-open-chat>
+              Talk to AI
+            </button>
+            <p class="tiny muted">Currently a placeholder modal (no backend yet).</p>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <span class="muted">© <span id="year"></span> Vishnu Moaan. Built with HTML, CSS, and JavaScript.</span>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <!-- Floating AI chat launcher -->
+  <button class="chat-fab" type="button" aria-label="Open AI chat" data-open-chat>
+    <span class="chat-fab-glow" aria-hidden="true"></span>
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M21 15a4 4 0 0 1-4 4H8l-5 4V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4Z"/>
+      <path d="M8 9h8M8 13h6"/>
+    </svg>
+  </button>
+
+  <!-- Chat modal -->
+  <div class="modal" id="chatModal" aria-hidden="true">
+    <div class="modal-overlay" data-close-chat></div>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-label="AI Chat">
+      <div class="modal-head">
+        <div class="modal-title">
+          <span class="dot" aria-hidden="true"></span>
+          <span>AI Assistant</span>
+        </div>
+        <button class="icon-btn" type="button" aria-label="Close" data-close-chat>
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="M18 6 6 18M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <div class="chat-bubble">
+          <p class="chat-text">AI Assistant coming soon.</p>
+          <p class="tiny muted">(This is a UI placeholder for future integration.)</p>
+        </div>
+
+        <div class="chat-input" aria-hidden="true">
+          <input type="text" placeholder="Ask something… (disabled)" disabled />
+          <button class="btn btn-ghost" type="button" disabled>Send</button>
+        </div>
+      </div>
+
+      <div class="modal-foot">
+        <span class="tiny muted">Tip: Press <kbd>Esc</kbd> to close.</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
